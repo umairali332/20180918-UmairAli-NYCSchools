@@ -4,7 +4,7 @@
 target 'Assignment' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-pod 'AlamofireNetworkLayer', :path => './AlamofireNetworkLayer'
+pod 'AlamofireNetworkLayer', :path => './AlamofireNetwork'
   pod 'Alamofire'
   pod 'AlamofireImage'
   # Pods for Assignment

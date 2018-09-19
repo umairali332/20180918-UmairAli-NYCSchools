@@ -1,0 +1,6 @@
+framework module AlamofireNetworkLayer {
+  umbrella header "AlamofireNetworkLayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

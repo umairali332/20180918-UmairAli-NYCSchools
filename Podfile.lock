@@ -8,7 +8,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - AlamofireImage
-  - AlamofireNetworkLayer (from `./AlamofireNetworkLayer`)
+  - AlamofireNetworkLayer (from `./AlamofireNetwork`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -17,13 +17,13 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   AlamofireNetworkLayer:
-    :path: "./AlamofireNetworkLayer"
+    :path: "./AlamofireNetwork"
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   AlamofireImage: 78d67ccbb763d87ba44b21583d2153500a195630
   AlamofireNetworkLayer: c540b7f8c540c4f45054a86e18e84b90c0a54ac5
 
-PODFILE CHECKSUM: 18ee7c87d2e04fdf0c96c5096a7b59784d3d99c3
+PODFILE CHECKSUM: ea8b3495e1a86c3eb83046ea9c991e49231f73f4
 
 COCOAPODS: 1.5.3

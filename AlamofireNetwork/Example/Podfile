@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AlamofireNetworkLayer_Tests' do
+  pod 'AlamofireNetworkLayer', :path => '../'
+  
+  
+end
