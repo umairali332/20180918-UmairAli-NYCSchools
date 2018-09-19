@@ -13,7 +13,7 @@ public protocol Coordinator: class {
 }
 
 public protocol Coordinated: class {
-    weak var coordinationDelegate: CoordinationDelegate? { get set }
+    var coordinationDelegate: CoordinationDelegate? { get set }
 }
 
 public protocol CoordinationDelegate: class {

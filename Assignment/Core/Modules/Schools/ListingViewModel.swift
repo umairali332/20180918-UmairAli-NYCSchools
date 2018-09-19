@@ -26,7 +26,7 @@ class ListingViewModel : NSObject {
     
     func fetchTestData() {
         
-            let request = SchoolRequestModel(limit: 20, offset: 0)
+            let request = SchoolRequestModel(limit: 20, offset: 1)
             dataStore.getSchoolList(request: request) {[weak self] (result) in
                 
                 guard let selfStrong = self else {
